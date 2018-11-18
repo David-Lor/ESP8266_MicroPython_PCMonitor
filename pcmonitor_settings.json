@@ -1,0 +1,16 @@
+{
+    "MQTT" : {
+        "broker" : "192.168.0.90",
+        "port": 1883,
+        "name" : "ESP8266_Testing",
+        "topics" : {
+            "base" : "dev/esp/",
+            "stat" : "stat",
+            "raw_powerswitch" : "cmd/powerswitch",
+            "cmd" : "cmd"
+        }
+    },
+    "Pinout" : {
+        "PowerSwitch" : "D3"
+    }
+}
