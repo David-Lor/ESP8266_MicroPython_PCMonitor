@@ -5,17 +5,22 @@
         "name" : "ESP8266_Testing",
         "user" : "",
         "password" : "",
-        "keepalive" : 30,
         "topics" : {
             "base" : "dev/esp/",
             "stat" : "stat",
             "raw_powerswitch_cmd" : "cmd/powerswitch",
+            "raw_powerswitch_stat" : "stat/powerswitch",
             "raw_powerled_stat" : "stat/powerled",
-            "cmd" : "cmd"
-        }
+            "cmd" : "cmd",
+            "cmd_pc" : "cmd/pc",
+            "cmd_esp" : "cmd/esp"
+        },
+        "ping_freq" : 20,
+        "keepalive" : 35
     },
     "Pinout" : {
         "PowerSwitch" : "D1",
-        "PowerLED" : "D5"
+        "PowerLED" : "D5",
+        "ESPOnboardLED" : "D4"
     }
 }
