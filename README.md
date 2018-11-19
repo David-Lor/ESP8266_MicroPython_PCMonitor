@@ -29,6 +29,8 @@
 
 ![Schematic](ESP8266_PCMonitor_bb.png)
 
+MOSFET Pinout: SOURCE, GATE, DRAIN
+
 ## TODO
 
 * Identify computer status (ON/OFF/SLEEP) by the Power LED (OFF, ON, Blinking)
