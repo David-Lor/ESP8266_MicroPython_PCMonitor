@@ -25,8 +25,10 @@
 * Power Switch (OUTPUT): D1 (Warning, some pins change its state during bootup, like D3 or D4, which can cause the motherboard to turn on during microcontroller bootup)
 * Power LED (INPUT): D5 (any valid digital GPIO with no on-board LED should work)
 
+## Schematic
+
+![Schematic](ESP8266_PCMonitor_bb.png)
+
 ## TODO
 
-* Create schematic for connections
-* Fix LWT (keepalive > 0 is buggy on umqtt, probably using client.ping() and manual mqtt polling is required)
-* Send the same payload for correct disconnection and LWT
+* Identify computer status (ON/OFF/SLEEP) by the Power LED (OFF, ON, Blinking)
